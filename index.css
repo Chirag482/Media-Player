@@ -85,11 +85,10 @@ main {
 aside {
   width: 30%;
   position: absolute;
-  right: 5%;
+  right: 4%;
   bottom: 5.2vh;
   top: 6vh;
   padding: 20px;
-  margin: 10px;
   overflow: auto;
 }
 .aside-header {
@@ -110,6 +109,11 @@ aside {
 
 .aside-list {
   margin-top: 20px;
+  position: absolute;
+  width: 90%;
+  bottom: 5.2vh;
+  top: 7vh;
+  overflow: auto;
 }
 .list-item {
   display: flex;
@@ -434,6 +438,122 @@ i {
   cursor: pointer;
 }
 
+/*artist page*/
+
+#main {
+  width: 70%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 4rem;
+  overflow: auto;
+}
+.artist-queue {
+  top: 45vh;
+}
+.similar .aside-list {
+  bottom: 48vh;
+}
+
+.top-div {
+  width: 100%;
+  background-color: rgb(27, 36, 73);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.left-container {
+  width: 250px;
+  flex-grow: 2;
+  height: 300px;
+  background: url("./Images/Second-Page-Grid/main-1.jpg");
+  background-size: cover;
+  margin-right: 3vw;
+}
+
+.right-container {
+  width: 450px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: rgb(185, 186, 187);
+}
+
+.top-header {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.top-name {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: 800;
+}
+.bootom-row {
+  display: flex;
+}
+.play-all,
+.follow {
+  background: linear-gradient(90deg, rgb(97, 97, 228), rgb(177, 45, 177));
+  width: 8vw;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 5%;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.foolowers {
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+.bottom-list {
+  width: 100%;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  background-color: rgb(27, 31, 54);
+}
+.left-item {
+  display: flex;
+  width: 250px;
+  padding-left: 20px;
+}
+.left-count {
+  padding-top: 25px;
+  color: white;
+  margin-right: 15px;
+}
+.item-iimg {
+  background: url("./Images/LatestHindi/IshqTera.webp");
+  height: 70px;
+  width: 70px;
+  background-size: contain;
+  margin-right: 15px;
+}
+.item-deetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.item-singer {
+  font-size: 0.7rem;
+  color: aliceblue;
+}
+.item-right {
+  color: white;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
 /* responsiveness*/
 @media screen and (max-width: 850px) {
   .song-fav {
@@ -451,8 +571,13 @@ i {
   aside {
     display: none;
   }
-  .page-content {
+  .page-content,
+  #main {
     width: 100%;
+  }
+  .play-all,
+  .follow {
+    width: 100px;
   }
 }
 @media screen and (max-width: 620px) {
@@ -475,6 +600,11 @@ i {
   }
   .play-pause {
     display: none;
+  }
+  #main {
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 @media screen and (max-width: 480px) {

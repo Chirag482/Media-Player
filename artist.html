@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <!--font awesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <title>Chillbeats</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar">
+      <div class="left">
+        <div class="brand">
+          <a href="./index.html">
+            <i class="fas fa-headphones"></i>
+            <span class="brand-name">Chillbeats</span>
+          </a>
+        </div>
+        <div class="fav">
+          <i class="far fa-heart"></i>
+          <span class="fav-name">Favourites</span>
+        </div>
+      </div>
+      <div class="right">
+        <div class="search">
+          <i class="fas fa-search"></i>
+          <input type="text" name="searchbox" placeholder="Search" />
+          <i class="fas fa-microphone"></i>
+        </div>
+        <div class="notifications">
+          <i class="far fa-bell"></i>
+        </div>
+        <div class="profile">
+          <i class="far fa-user"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!--aside-->
+    <aside class="similar">
+      <div class="Queue-header">Similar Artists</div>
+      <div class="aside-list">
+        <div class="list-item">
+          <div class="song-name">
+            <div class="count">01</div>
+
+            <div
+              class="song-img"
+              style="background-image: url('./Images/ARRahman.jpg')"
+            ></div>
+            <div class="song-details">
+              <div class="song">AR Rahman</div>
+              <div class="singer-name">215 Songs</div>
+            </div>
+          </div>
+          <div class="song-fav">
+            <i class="fas fa-play-circle"></i>
+          </div>
+        </div>
+
+        <div class="list-item">
+          <div class="song-name">
+            <div class="count">02</div>
+            <div
+              class="song-img"
+              style="background-image: url('./Images/ed-sheeran.jpg')"
+            ></div>
+            <div class="song-details">
+              <div class="song">ED-Sheeran</div>
+              <div class="singer-name">105 songs</div>
+            </div>
+          </div>
+          <div class="song-fav">
+            <i class="fas fa-play-circle"></i>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="song-name">
+            <div class="count">03</div>
+            <div
+              class="song-img"
+              style="background-image: url('./Images/justin-bieber.jpg')"
+            ></div>
+            <div class="song-details">
+              <div class="song">Justin Bieber</div>
+              <div class="singer-name">50 Songs</div>
+            </div>
+          </div>
+          <div class="song-fav">
+            <i class="fas fa-play-circle"></i>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="song-name">
+            <div class="count">04</div>
+            <div
+              class="song-img"
+              style="background-image: url('./Images/Shreya.jpg')"
+            ></div>
+            <div class="song-details">
+              <div class="song">Shreya</div>
+              <div class="singer-name">50 songs</div>
+            </div>
+          </div>
+          <div class="song-fav">
+            <i class="fas fa-play-circle"></i>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="song-name">
+            <div class="count">05</div>
+            <div
+              class="song-img"
+              style="background-image: url('./Images/SonuNigam.jpg')"
+            ></div>
+            <div class="song-details">
+              <div class="song">Sonu Nigam</div>
+              <div class="singer-name">60 Songs</div>
+            </div>
+          </div>
+          <div class="song-fav">
+            <i class="fas fa-play-circle"></i>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="song-name">
+            <div class="count">06</div>
+            <div
+              class="song-img"
+              style="background-image: url('./Images/Taylor-Swift.jpg')"
+            ></div>
+            <div class="song-details">
+              <div class="song">Taylor-Swift</div>
+              <div class="singer-name">48 songs</div>
+            </div>
+          </div>
+          <div class="song-fav">
+            <i class="fas fa-play-circle"></i>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <aside class="artist-queue">
+      <div class="aside-header">
+        <div class="Queue-header">Queue</div>
+        <div class="queue-list">Queue <i class="fas fa-caret-down"></i></div>
+      </div>
+      <div class="aside-list">
+        <div class="list-item">
+          <div class="song-name">
+            <div class="count">01</div>
+
+            <div
+              class="song-img"
+              style="
+                background-image: url('./Images/LatestHindi/Pachtaoge.webp');
+              "
+            ></div>
+            <div class="song-details">
+              <div class="song">Pachtaoge</div>
+              <div class="singer-name">B praak</div>
+            </div>
+          </div>
+          <div class="song-fav">
+            <i class="far fa-heart"></i>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="song-name">
+            <div class="count">02</div>
+            <div
+              class="song-img"
+              style="background-image: url('./Images/LatestEng/Bellever.webp')"
+            ></div>
+            <div class="song-details">
+              <div class="song">Bellever</div>
+              <div class="singer-name">Alan walker</div>
+            </div>
+          </div>
+          <div class="song-fav">
+            <i class="far fa-heart"></i>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="song-name">
+            <div class="count">03</div>
+            <div
+              class="song-img"
+              style="background-image: url('./Images/LatestEng/memories.jpg')"
+            ></div>
+            <div class="song-details">
+              <div class="song">Memories</div>
+              <div class="singer-name">Maroon 5</div>
+            </div>
+          </div>
+          <div class="song-fav">
+            <i class="far fa-heart"></i>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="song-name">
+            <div class="count">04</div>
+            <div
+              class="song-img"
+              style="
+                background-image: url('./Images/LatestHindi/TuHIYaarMera.webp');
+              "
+            ></div>
+            <div class="song-details">
+              <div class="song">Tu Hi Yaar Mera</div>
+              <div class="singer-name">Arjit Singh</div>
+            </div>
+          </div>
+          <div class="song-fav">
+            <i class="far fa-heart"></i>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="song-name">
+            <div class="count">05</div>
+            <div
+              class="song-img"
+              style="
+                background-image: url('./Images/LatestHindi/IshqTera.webp');
+              "
+            ></div>
+            <div class="song-details">
+              <div class="song">Ishq Tera</div>
+              <div class="singer-name">Guru Randhawa</div>
+            </div>
+          </div>
+          <div class="song-fav">
+            <i class="far fa-heart"></i>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="song-name">
+            <div class="count">06</div>
+            <div
+              class="song-img"
+              style="background-image: url('./Images/LatestEng/Shameless.jpg')"
+            ></div>
+            <div class="song-details">
+              <div class="song">Shameless</div>
+              <div class="singer-name">Camila Cabello</div>
+            </div>
+          </div>
+          <div class="song-fav">
+            <i class="far fa-heart"></i>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="song-name">
+            <div class="count">07</div>
+            <div
+              class="song-img"
+              style="background-image: url('./Images/LatestEng/Shameless.jpg')"
+            ></div>
+            <div class="song-details">
+              <div class="song">Shameless</div>
+              <div class="singer-name">Camila Cabello</div>
+            </div>
+          </div>
+          <div class="song-fav">
+            <i class="far fa-heart"></i>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="song-name">
+            <div class="count">08</div>
+            <div
+              class="song-img"
+              style="background-image: url('./Images/LatestEng/Shameless.jpg')"
+            ></div>
+            <div class="song-details">
+              <div class="song">Shameless</div>
+              <div class="singer-name">Camila Cabello</div>
+            </div>
+          </div>
+          <div class="song-fav">
+            <i class="far fa-heart"></i>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="song-name">
+            <div class="count">09</div>
+            <div
+              class="song-img"
+              style="background-image: url('./Images/LatestEng/Shameless.jpg')"
+            ></div>
+            <div class="song-details">
+              <div class="song">Shameless</div>
+              <div class="singer-name">Camila Cabello</div>
+            </div>
+          </div>
+          <div class="song-fav">
+            <i class="far fa-heart"></i>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="song-name">
+            <div class="count">10</div>
+            <div
+              class="song-img"
+              style="background-image: url('./Images/LatestEng/Shameless.jpg')"
+            ></div>
+            <div class="song-details">
+              <div class="song">Shameless</div>
+              <div class="singer-name">Camila Cabello</div>
+            </div>
+          </div>
+          <div class="song-fav">
+            <i class="far fa-heart"></i>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="song-name">
+            <div class="count">11</div>
+            <div
+              class="song-img"
+              style="background-image: url('./Images/LatestEng/Shameless.jpg')"
+            ></div>
+            <div class="song-details">
+              <div class="song">Shameless</div>
+              <div class="singer-name">Camila Cabello</div>
+            </div>
+          </div>
+          <div class="song-fav">
+            <i class="far fa-heart"></i>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <main id="main">
+      <div class="top-div">
+        <div class="left-container"></div>
+        <div class="right-container">
+          <div class="top">
+            <div class="top-header">
+              <div class="top-details">
+                <div class="top-name">ColdPlay</div>
+                <div class="top-station">British Band</div>
+              </div>
+              <div class="top-folloers">851 Followers</div>
+            </div>
+            <div class="mid">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              mollitia quod, natus non dignissimos totam corporis vitae, eius
+              beatae earum quos accusantium dolorum aspernatur consectetur
+              reiciendis ex debitis enim et.
+            </div>
+          </div>
+          <div class="bootom">
+            <div class="bootom-row">
+              <div class="play-all">Play All</div>
+              <div class="follow">Follow</div>
+            </div>
+            <div class="foolowers">247 Tracks , 1124 Albums</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-list">
+        <div class="item">
+          <div class="left-item">
+            <div class="left-count">01</div>
+            <div class="item-iimg"></div>
+            <div class="item-deetails">
+              <div class="item-name">ABC</div>
+              <div class="item-singer">XYZ</div>
+            </div>
+          </div>
+          <div class="item-right">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-plus-circle"></i>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left-item">
+            <div class="left-count">01</div>
+            <div class="item-iimg"></div>
+            <div class="item-deetails">
+              <div class="item-name">ABC</div>
+              <div class="item-singer">XYZ</div>
+            </div>
+          </div>
+          <div class="item-right">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-plus-circle"></i>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left-item">
+            <div class="left-count">01</div>
+            <div class="item-iimg"></div>
+            <div class="item-deetails">
+              <div class="item-name">ABC</div>
+              <div class="item-singer">XYZ</div>
+            </div>
+          </div>
+          <div class="item-right">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-plus-circle"></i>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left-item">
+            <div class="left-count">01</div>
+            <div class="item-iimg"></div>
+            <div class="item-deetails">
+              <div class="item-name">ABC</div>
+              <div class="item-singer">XYZ</div>
+            </div>
+          </div>
+          <div class="item-right">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-plus-circle"></i>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left-item">
+            <div class="left-count">01</div>
+            <div class="item-iimg"></div>
+            <div class="item-deetails">
+              <div class="item-name">ABC</div>
+              <div class="item-singer">XYZ</div>
+            </div>
+          </div>
+          <div class="item-right">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-plus-circle"></i>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left-item">
+            <div class="left-count">01</div>
+            <div class="item-iimg"></div>
+            <div class="item-deetails">
+              <div class="item-name">ABC</div>
+              <div class="item-singer">XYZ</div>
+            </div>
+          </div>
+          <div class="item-right">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-plus-circle"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--footer-->
+    <footer>
+      <div class="song-details">
+        <div class="iimg"></div>
+        <div class="nname">Garmi <br /><span class="Abcdef"> Abcdef</span></div>
+        <div class="song-funcs">
+          <i class="far fa-heart"></i>
+          <i class="far fa-times-circle"></i>
+        </div>
+      </div>
+      <div class="song-controller">
+        <div class="upper-line">
+          <i class="fas fa-random"></i>
+          <i class="fas fa-backward"></i>
+          <i class="fas fa-play-circle" style="font-size: 25px"></i>
+          <i class="fas fa-forward"></i>
+          <i class="fas fa-undo"></i>
+        </div>
+        <br />
+        <div class="lower-line">
+          <div class="completed"></div>
+        </div>
+      </div>
+      <div class="devices">
+        <i class="fas fa-sliders-h"></i>
+        <i class="fas fa-laptop"></i>
+        <i class="fas fa-volume-up"></i>
+      </div>
+    </footer>
+  </body>
+</html>
