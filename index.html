@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--external css file-->
+    <link rel="stylesheet" href="./index.css" />
+    <!--font awesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <title>Chillbeats</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar">
+      <div class="left">
+        <div class="brand">
+          <a href="./index.html">
+            <i class="fas fa-headphones"></i>
+            <span class="brand-name">Chillbeats</span>
+          </a>
+        </div>
+        <div class="fav">
+          <i class="far fa-heart"></i>
+          <span class="fav-name">Favourites</span>
+        </div>
+      </div>
+      <div class="right">
+        <div class="search">
+          <i class="fas fa-search"></i>
+          <input type="text" name="searchbox" placeholder="Search" />
+          <i class="fas fa-microphone"></i>
+        </div>
+        <div class="notifications">
+          <i class="far fa-bell"></i>
+        </div>
+        <div class="profile">
+          <i class="far fa-user"></i>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <aside>
+        <div class="aside-header">
+          <div class="Queue-header">Queue</div>
+          <div class="queue-list">Queue <i class="fas fa-caret-down"></i></div>
+        </div>
+        <div class="aside-list">
+          <div class="list-item">
+            <div class="song-name">
+              <div class="count">01</div>
+
+              <div
+                class="song-img"
+                style="
+                  background-image: url('./Images/LatestHindi/Pachtaoge.webp');
+                "
+              ></div>
+              <div class="song-details">
+                <div class="song">Pachtaoge</div>
+                <div class="singer-name">B praak</div>
+              </div>
+            </div>
+            <div class="song-fav">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="song-name">
+              <div class="count">02</div>
+              <div
+                class="song-img"
+                style="
+                  background-image: url('./Images/LatestEng/Bellever.webp');
+                "
+              ></div>
+              <div class="song-details">
+                <div class="song">Bellever</div>
+                <div class="singer-name">Alan walker</div>
+              </div>
+            </div>
+            <div class="song-fav">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="song-name">
+              <div class="count">03</div>
+              <div
+                class="song-img"
+                style="background-image: url('./Images/LatestEng/memories.jpg')"
+              ></div>
+              <div class="song-details">
+                <div class="song">Memories</div>
+                <div class="singer-name">Maroon 5</div>
+              </div>
+            </div>
+            <div class="song-fav">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="song-name">
+              <div class="count">04</div>
+              <div
+                class="song-img"
+                style="
+                  background-image: url('./Images/LatestHindi/TuHIYaarMera.webp');
+                "
+              ></div>
+              <div class="song-details">
+                <div class="song">Tu Hi Yaar Mera</div>
+                <div class="singer-name">Arjit Singh</div>
+              </div>
+            </div>
+            <div class="song-fav">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="song-name">
+              <div class="count">05</div>
+              <div
+                class="song-img"
+                style="
+                  background-image: url('./Images/LatestHindi/IshqTera.webp');
+                "
+              ></div>
+              <div class="song-details">
+                <div class="song">Ishq Tera</div>
+                <div class="singer-name">Guru Randhawa</div>
+              </div>
+            </div>
+            <div class="song-fav">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="song-name">
+              <div class="count">06</div>
+              <div
+                class="song-img"
+                style="
+                  background-image: url('./Images/LatestEng/Shameless.jpg');
+                "
+              ></div>
+              <div class="song-details">
+                <div class="song">Shameless</div>
+                <div class="singer-name">Camila Cabello</div>
+              </div>
+            </div>
+            <div class="song-fav">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="song-name">
+              <div class="count">07</div>
+              <div
+                class="song-img"
+                style="
+                  background-image: url('./Images/LatestEng/Shameless.jpg');
+                "
+              ></div>
+              <div class="song-details">
+                <div class="song">Shameless</div>
+                <div class="singer-name">Camila Cabello</div>
+              </div>
+            </div>
+            <div class="song-fav">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="song-name">
+              <div class="count">08</div>
+              <div
+                class="song-img"
+                style="
+                  background-image: url('./Images/LatestEng/Shameless.jpg');
+                "
+              ></div>
+              <div class="song-details">
+                <div class="song">Shameless</div>
+                <div class="singer-name">Camila Cabello</div>
+              </div>
+            </div>
+            <div class="song-fav">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="song-name">
+              <div class="count">09</div>
+              <div
+                class="song-img"
+                style="
+                  background-image: url('./Images/LatestEng/Shameless.jpg');
+                "
+              ></div>
+              <div class="song-details">
+                <div class="song">Shameless</div>
+                <div class="singer-name">Camila Cabello</div>
+              </div>
+            </div>
+            <div class="song-fav">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="song-name">
+              <div class="count">10</div>
+              <div
+                class="song-img"
+                style="
+                  background-image: url('./Images/LatestEng/Shameless.jpg');
+                "
+              ></div>
+              <div class="song-details">
+                <div class="song">Shameless</div>
+                <div class="singer-name">Camila Cabello</div>
+              </div>
+            </div>
+            <div class="song-fav">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="song-name">
+              <div class="count">11</div>
+              <div
+                class="song-img"
+                style="
+                  background-image: url('./Images/LatestEng/Shameless.jpg');
+                "
+              ></div>
+              <div class="song-details">
+                <div class="song">Shameless</div>
+                <div class="singer-name">Camila Cabello</div>
+              </div>
+            </div>
+            <div class="song-fav">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="song-name">
+              <div class="count">12</div>
+              <div
+                class="song-img"
+                style="
+                  background-image: url('./Images/LatestEng/Shameless.jpg');
+                "
+              ></div>
+              <div class="song-details">
+                <div class="song">Shameless</div>
+                <div class="singer-name">Camila Cabello</div>
+              </div>
+            </div>
+            <div class="song-fav">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="song-name">
+              <div class="count">13</div>
+              <div
+                class="song-img"
+                style="
+                  background-image: url('./Images/LatestEng/Shameless.jpg');
+                "
+              ></div>
+              <div class="song-details">
+                <div class="song">Shameless</div>
+                <div class="singer-name">Camila Cabello</div>
+              </div>
+            </div>
+            <div class="song-fav">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="song-name">
+              <div class="count">14</div>
+              <div
+                class="song-img"
+                style="
+                  background-image: url('./Images/LatestEng/Shameless.jpg');
+                "
+              ></div>
+              <div class="song-details">
+                <div class="song">Shameless</div>
+                <div class="singer-name">Camila Cabello</div>
+              </div>
+            </div>
+            <div class="song-fav">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="song-name">
+              <div class="count">15</div>
+              <div
+                class="song-img"
+                style="
+                  background-image: url('./Images/LatestEng/Shameless.jpg');
+                "
+              ></div>
+              <div class="song-details">
+                <div class="song">Shameless</div>
+                <div class="singer-name">Camila Cabello</div>
+              </div>
+            </div>
+            <div class="song-fav">
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <section class="page-content">
+        <div class="corousel">
+          <input type="radio" name="slider" id="slide-1" checked />
+          <input type="radio" name="slider" id="slide-2" />
+          <input type="radio" name="slider" id="slide-3" />
+          <div class="slides">
+            <label class="slide" for="slide-1" id="song-1">
+              <img class="slider-img" src="./Images/electronic.jpg" />
+            </label>
+            <label class="slide" for="slide-2" id="song-2">
+              <img class="slider-img" src="./Images/roadtrip.jpg" />
+            </label>
+            <label class="slide" for="slide-3" id="song-3">
+              <img class="slider-img" src="./Images/party.jpg" />
+            </label>
+          </div>
+        </div>
+
+        <!--latest releases-->
+        <div class="latest-releases">
+          <h1>Latest Release</h1>
+          <div class="latest-list">
+            <div class="latest-item">
+              <img class="item-img" src="./Images/LatestHindi/Pachtaoge.webp" />
+              <div class="play-pause">
+                <i class="fas fa-pause"></i>
+              </div>
+              <div class="item-deatils">
+                <div class="item-name">
+                  <div class="item-song-name">Pachtaoge</div>
+                  <div class="item-date">Aug 11, 2017</div>
+                </div>
+                <div class="item-functions">
+                  <div class="functions-icon">
+                    <i class="fas fa-ellipsis-h"></i>
+                  </div>
+                  <div class="song-length">4:44</div>
+                </div>
+              </div>
+            </div>
+            <div class="latest-item">
+              <img class="item-img" src="./Images/LatestHindi/Pachtaoge.webp" />
+              <div class="play-pause">
+                <i class="fas fa-pause"></i>
+              </div>
+              <div class="item-deatils">
+                <div class="item-name">
+                  <div class="item-song-name">Pachtaoge</div>
+                  <div class="item-date">Aug 11, 2017</div>
+                </div>
+                <div class="item-functions">
+                  <div class="functions-icon">
+                    <i class="fas fa-ellipsis-h"></i>
+                  </div>
+                  <div class="song-length">4:44</div>
+                </div>
+              </div>
+            </div>
+            <div class="latest-item">
+              <img class="item-img" src="./Images/LatestHindi/Pachtaoge.webp" />
+              <div class="play-pause">
+                <i class="fas fa-pause"></i>
+              </div>
+              <div class="item-deatils">
+                <div class="item-name">
+                  <div class="item-song-name">Pachtaoge</div>
+                  <div class="item-date">Aug 11, 2017</div>
+                </div>
+                <div class="item-functions">
+                  <div class="functions-icon">
+                    <i class="fas fa-ellipsis-h"></i>
+                  </div>
+                  <div class="song-length">4:44</div>
+                </div>
+              </div>
+            </div>
+            <div class="latest-item">
+              <img class="item-img" src="./Images/LatestHindi/Pachtaoge.webp" />
+              <div class="play-pause">
+                <i class="fas fa-pause"></i>
+              </div>
+              <div class="item-deatils">
+                <div class="item-name">
+                  <div class="item-song-name">Pachtaoge</div>
+                  <div class="item-date">Aug 11, 2017</div>
+                </div>
+                <div class="item-functions">
+                  <div class="functions-icon">
+                    <i class="fas fa-ellipsis-h"></i>
+                  </div>
+                  <div class="song-length">4:44</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="artists">
+          <h1>Popular Artists</h1>
+          <div class="artists-list">
+            <div class="artist-div">
+              <div
+                class="artist"
+                style="
+                  background: url('./Images/SonuNigam.jpg');
+                  background-size: contain;
+                "
+              ></div>
+              <div class="artist-name">Sonu Nigam</div>
+            </div>
+            <div class="artist-div">
+              <div
+                class="artist"
+                style="
+                  background: url('./Images/Shreya.jpg');
+                  background-size: contain;
+                "
+              ></div>
+              <div class="artist-name">Shreya</div>
+            </div>
+            <div class="artist-div">
+              <div
+                class="artist"
+                style="
+                  background: url('./Images/justin-bieber.jpg');
+                  background-size: contain;
+                "
+              ></div>
+              <div class="artist-name">Justin Bieber</div>
+            </div>
+            <div class="artist-div">
+              <div
+                class="artist"
+                style="
+                  background: url('./Images/Taylor-Swift.jpg');
+                  background-size: contain;
+                "
+              ></div>
+              <div class="artist-name">Taylor Swift</div>
+            </div>
+            <div class="artist-div">
+              <div
+                class="artist"
+                style="
+                  background: url('./Images/ARRahman.jpg');
+                  background-size: contain;
+                "
+              ></div>
+              <div class="artist-name">A R Rahman</div>
+            </div>
+            <div class="artist-div">
+              <div
+                class="artist"
+                style="
+                  background: url('./Images/ed-sheeran.jpg');
+                  background-size: contain;
+                "
+              ></div>
+              <div class="artist-name">Ed Sheeran</div>
+            </div>
+            <div class="artist-div">
+              <div
+                class="artist"
+                style="
+                  background: url('./Images/ARRahman.jpg');
+                  background-size: contain;
+                "
+              ></div>
+              <div class="artist-name">A R Rahman</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="categories">
+          <div
+            class="category"
+            style="
+              background: url('./Images/party.jpg');
+              background-size: cover;
+            "
+          >
+            <div class="category-name">Party</div>
+          </div>
+          <div
+            class="category"
+            style="
+              background: url('./Images/electronic.jpg');
+              background-size: cover;
+            "
+          >
+            <div class="category-name">Electronic</div>
+          </div>
+          <div
+            class="category"
+            style="
+              background: url('./Images/roadtrip.jpg');
+              background-size: cover;
+            "
+          >
+            <div class="category-name">Roadtrip</div>
+          </div>
+        </div>
+
+        <!--latest eng-->
+        <div class="latest-releases">
+          <h1>Latest English</h1>
+          <div class="artists-list">
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestEng/rightnow.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Right Now</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestEng/rightnow.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Right Now</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestEng/rightnow.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Right Now</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestEng/rightnow.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Right Now</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestEng/rightnow.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Right Now</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestEng/rightnow.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Right Now</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestEng/rightnow.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Right Now</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestEng/rightnow.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Right Now</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestEng/rightnow.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Right Now</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestEng/rightnow.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Right Now</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="latest-releases">
+          <h1>Latest Hindi</h1>
+          <div class="artists-list">
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestHindi/IshqTera.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Ishq Tera</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestHindi/IshqTera.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Ishq Tera</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestHindi/IshqTera.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Ishq Tera</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestHindi/IshqTera.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Ishq Tera</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestHindi/IshqTera.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Ishq Tera</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestHindi/IshqTera.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Ishq Tera</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestHindi/IshqTera.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Ishq Tera</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestHindi/IshqTera.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Ishq Tera</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestHindi/IshqTera.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Ishq Tera</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestHindi/IshqTera.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Ishq Tera</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+            <div class="lists-item">
+              <div
+                class="list-item-img"
+                style="
+                  background: url('./Images/LatestHindi/IshqTera.webp');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="artist-name">Ishq Tera</div>
+              <div class="list-item-date">Aug 27,2017</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--footer-->
+    <footer>
+      <div class="song-details">
+        <div class="iimg"></div>
+        <div class="nname">Garmi <br /><span class="Abcdef"> Abcdef</span></div>
+        <div class="song-funcs">
+          <i class="far fa-heart"></i>
+          <i class="far fa-times-circle"></i>
+        </div>
+      </div>
+      <div class="song-controller">
+        <div class="upper-line">
+          <i class="fas fa-random"></i>
+          <i class="fas fa-backward"></i>
+          <i class="fas fa-play-circle" style="font-size: 25px"></i>
+          <i class="fas fa-forward"></i>
+          <i class="fas fa-undo"></i>
+        </div>
+        <br />
+        <div class="lower-line">
+          <div class="completed"></div>
+        </div>
+      </div>
+      <div class="devices">
+        <i class="fas fa-sliders-h"></i>
+        <i class="fas fa-laptop"></i>
+        <i class="fas fa-volume-up"></i>
+      </div>
+    </footer>
+  </body>
+</html>
