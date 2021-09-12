@@ -236,10 +236,10 @@ input[type="radio"] {
 .latest-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .latest-item {
-  width: 45%;
+  width: 275px;
   display: flex;
   margin-bottom: 40px;
   position: relative;
@@ -318,15 +318,16 @@ input[type="radio"] {
 /*categories*/
 .categories {
   display: flex;
-  height: 150px;
+  height: auto;
   width: 90%;
   margin: auto;
+  flex-wrap: wrap;
   margin-bottom: 50px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .category {
-  height: 100%;
-  width: 100%;
+  height: 150px;
+  width: 250px;
   margin: 10px;
   position: relative;
   transition: all 0.5s;
@@ -346,7 +347,7 @@ input[type="radio"] {
 
 /*latest eng*/
 .list-item-img {
-  height: 15vh;
+  height: 100px;
   width: 100px;
   margin: 0 15px 10px 0;
 }
@@ -394,7 +395,7 @@ footer .song-details {
 }
 
 .song-controller {
-  width: 30%;
+  width: 50%;
   text-align: center;
 }
 .upper-line {
@@ -412,7 +413,8 @@ footer .song-details {
   position: relative;
   top: -10px;
   height: 10px;
-  width: 100%;
+  width: 80%;
+  margin: auto;
   background-color: white;
 }
 .completed {
@@ -430,4 +432,63 @@ footer .song-details {
 }
 i {
   cursor: pointer;
+}
+
+/* responsiveness*/
+@media screen and (max-width: 850px) {
+  .song-fav {
+    display: none;
+  }
+  .devices {
+    display: none;
+  }
+  footer {
+    padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  aside {
+    display: none;
+  }
+  .page-content {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 620px) {
+  .latest-releases,
+  .artists {
+    padding: 0;
+    padding-bottom: 30px;
+  }
+  .item-img {
+    margin-right: 3vw;
+  }
+  .page-content {
+    bottom: 5vh;
+  }
+  footer {
+    padding-left: 0;
+  }
+  footer {
+    padding-right: 50px;
+  }
+  .play-pause {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer .song-details {
+    display: none;
+  }
+
+  footer {
+    padding-left: 50px;
+  }
+  .song-controller {
+    width: 100%;
+  }
+  .sliding-name {
+    display: block;
+  }
 }
